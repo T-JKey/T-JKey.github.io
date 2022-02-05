@@ -1,0 +1,248 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1; 
+}
+html, body {
+    line-height: 1.5;
+    font-size: 15px;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+.pd-16{
+    padding: 16px !important;
+}
+.mg-bt16{
+    margin-bottom: 16px !important;
+}
+.mg-15{
+    margin: 15px 0px !important;
+}
+.mg-top30{
+    margin-top: 30px !important;
+}
+.pd-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.pd-LR-16{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.pd-12-24{
+    padding: 12px 24px !important;
+}
+.small{
+    font-size: 12px;
+}
+.row{
+    padding: 15px;
+    
+}
+.badge{
+    border-radius: 50%;
+}
+.tag{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#main {
+
+}
+/* css header */
+#header {
+    height: 180.5px;
+    padding: 32px 16px;
+
+}
+#header .title{
+    text-align: center;
+}
+#header .title h1 {
+    font-size: 36px;
+    line-height: 1.5;
+}
+#header .title p{
+    line-height: 1.5;
+    font-size: 15px;
+}
+.title .edit{
+   padding: 0px 8px;
+   background-color: #000;
+   color: #fff;
+   display: inline-block;
+}
+/* CSS content */
+#content {
+}
+#content .left-col1,
+#content .left-col{
+    float: left;
+    width: 66.66666%;
+    
+}
+#content .right-col1,
+#content .right-col{
+    float: left;
+    width: 33.33333%;
+    padding-left: 30px;
+    
+}
+#content .card{
+    padding:0.15px 16px;
+    background-color: #fff;
+}
+ h3 {
+    font-size: 24px;
+}
+
+h5{
+    font-size: 18px;
+}
+h4 {
+    font-size: 20px;
+}
+#content .card .edit1{
+    color: #000;
+    display: inline-block;
+    opacity: 0.60;
+ }
+ #content .card > p{
+    font-size: 15px;
+    font-family:Verdana, sans-serif;
+}
+.fakeimg {
+    width: 100%;
+    vertical-align: middle;
+    /*hoặc display: block; để làm sát ảnh*/
+  }
+  #content .btn{
+      padding: 16px 28px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+  }
+  #content .btn:hover{
+      background-color: #ccc;
+      cursor: pointer;
+  }
+  #content .comment{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  #content .edit3{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  }
+  #content .edit4{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+#content .content-right{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#content .rol {
+      list-style-type: none;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+#content .rol li:hover{
+    background-color: #ccc;
+}
+ .edit5{
+      font-size: 18px;
+  }
+.edit6 {
+      font-size: 15.5px;
+  }
+  #content .content-right{
+      padding: 8px 16px;
+  }
+  #content ul li{
+      border-bottom: 1px solid #ddd;
+  }
+  #content ul li:last-child{
+      border-bottom: none;
+  }
+
+/* CSS footer */
+#footer {
+
+}
+#footer .footer-end {
+    background-color: #616161 ;
+}
+#footer .footer-btn {
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+}
+#footer .footer-btns:hover{
+    color: #000;
+    background-color: #ccc;
+}
+#footer .footer-end-btn{
+    cursor: not-allowed;
+    opacity: 0.3;  
+}
+/* CSS responsive */
+@media screen and (max-width: 62em ) {
+    #content .left-col,
+    #content .right-col { 
+      width: 100%;
+      padding: 0;
+    }
+    #content .right-col{
+        padding-top: 40px;
+    }
+  }
+  @media screen and (max-width: 37.5em) {
+    #content .comment{
+        display: none;
+      }
+    #content .right-col{
+        padding-top: 40px;
+    }
+  }
+  @media (max-width:62em){
+    ul .hide-small{
+        display: none;
+    }
+  }
